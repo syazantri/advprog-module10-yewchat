@@ -27,7 +27,7 @@ pub fn login() -> Html {
     };
 
     html! {
-       <div class="bg-gray-800 flex w-screen">
+       <div class="bg-pink-100 flex w-screen">
             <div class="container mx-auto flex flex-col justify-center items-center">
                 <form class="m-4 flex">
                     <input {oninput} class="rounded-l-lg p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white" placeholder="Username" />
